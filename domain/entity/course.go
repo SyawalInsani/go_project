@@ -57,6 +57,10 @@ func (crs *Course) GetSKSCount() *value_object.Sks {
 	return crs.skscount
 }
 
+func (crs *Course) SetSkscount(skscount *value_object.Sks) {
+	crs.skscount = skscount
+}
+
 func (crs *Course) GetStatus() *value_object.Status {
 	return crs.status
 }
